@@ -1,0 +1,119 @@
+/**
+Theme: My Theme
+Author: Cristian Gogoasa
+*/
+
+body{
+    font-family: "Cascadia Code", monospace;
+    font-size: 18px;
+}
+
+header{
+    background: #000000;
+    font-weight: bold;
+    width: 100%;
+    height: 250px;
+    color: white;
+}
+
+header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header .top-bar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header ul ul {
+    display: none;
+    position: relative;
+}
+
+header .top-bar li {
+    margin-right: 100px;
+    padding-top: 70px;
+    font-size: 32px;
+    box-sizing: content-box;
+}
+
+header .top-bar > li a:hover{
+    color: #0a53be;
+}
+
+header .top-bar > li a{
+    color: white;
+    text-decoration: none;
+}
+
+header .top-bar > li a:active{
+    color: white;
+}
+
+form input {
+    font-size: 14px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+header .top-bar > li a:active{
+    color: black !important;
+}
+
+header .top-bar > li a{
+    color: black !important;
+}
+
+.container{
+    padding-top: 1.5%;
+
+}
+
+.container .row{
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container .post-title{
+    margin-top: 1.5%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.page-wrap .container{
+    font-size: 18px;
+}
+
+.page-wrap{
+    padding: 1.5% 1.5%;
+}
+
+.comment-form-comment label{
+    display: none;
+}
+
+#submit-button{
+    margin-top: 10px;
+    width: 100%;
+    background-color: #0a4b78;
+    color: #456983;
+    border-radius: 10px;
+}
+
+#comment {
+    resize: none;
+    width: 100%;
+}
+
+#commentform {
+    width: 65%;
+}
